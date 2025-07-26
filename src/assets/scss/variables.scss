@@ -1,0 +1,68 @@
+// -- Variables CSS3
+
+:root{
+
+    //--logoWidth: 7rem;
+
+    //basics
+    --white: #e5e5db;
+    --black: #363b48;
+
+    //text colors
+    --txtLight: #e5e5db;
+    --txtDark: #363b48;
+
+    //light and dark
+    --light: #fff;
+    --dark: #000;
+
+
+    //branding
+    --brandPrimary: #0279b5;
+    --brandSecondary: purple;
+    --brandSpecial: green;
+
+    //brandingDarken 15
+
+    --brandPrimaryD15: #1B6082;
+    --brandPrimaryL15:  #0298E3;
+
+    //border
+    --borderSize: 2px;
+    --borderStyle: solid;
+    --borderColor: #b2b2b2;
+    --border: var(--borderSize) var(--borderStyle) var(--borderColor);
+
+
+    // btn
+    --btnPrimary: var(--brandPrimary);
+    --btnSecondary: var(--brandSecondary);
+    --btnSpecial: var(--brandSpecial);
+
+    // margin
+    --marginT: 8vh;
+    --marginNT: -4vh;
+    --marginR: 6.5vw;
+    --marginNR: -3.25vh;
+    --marginB: 8vh;
+    --marginNB: -2vh;
+    --marginL: 6.5vw;
+    --marginNL: -3.25vh;
+
+    // Dashboard Zone
+    --dashboardBtnSize: 3.3rem;
+    --dashboardBtnPaddingY: .5rem;
+    --dashboardBtnPaddingX: 3rem;
+    --dashboardBtnPadding: var(--dashboardBtnPaddingY) var(--dashboardBtnPaddingX);
+    --dashboardBtnPositionL: 10rem;
+
+//          left: 10rem;
+// padding: .5rem 3rem;
+
+    //border radius
+    --radiusS: .5rem;
+    --radiusM: 1rem;
+    --radiusL: 2rem;
+    --radiusXl: 3rem;
+}
+

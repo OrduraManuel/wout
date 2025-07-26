@@ -1,0 +1,24 @@
+.newNav{
+    padding: 1rem 2rem;
+    background-color: var(--brandPrimary);
+    color: var(--txtWhite);
+    .menu{
+        a{
+            color: var(--txtLight);
+            text-decoration: none;
+            transition: .5s all ease-in-out;
+            transform: scale(1);
+            &:hover{
+                font-weight: 900;
+                transform: scale(1.1);
+                transition: .5 all ease-in-out;
+            }
+        }
+        .router-link-active{
+            font-weight: 900;
+            transition: .5 all ease-in-out;
+
+        }
+    }
+
+}

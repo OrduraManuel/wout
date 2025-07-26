@@ -1,0 +1,68 @@
+
+/* 7. home credits */
+.bottom-credits {
+    position: fixed;
+    display: block;
+    visibility: visible;
+    width: auto;
+    height: 50px;
+    left: 50px;
+    bottom: 8px;
+    font-size: 9px;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+     -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+       -moz-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+    -webkit-transition: all 1.5s ease;
+       -moz-transition: all 1.5s ease;
+        -ms-transition: all 1.5s ease;
+         -o-transition: all 1.5s ease;
+            transition: all 1.5s ease;
+    z-index: 1001;
+    }
+    
+    @media only screen and (max-width: 640px) {
+      .bottom-credits {
+        left: 20px;
+        bottom: -14px;
+      }
+    }
+    
+    @media only screen and (max-width: 640px) {
+      .bottom-credits {
+        display: none;
+        visibility: hidden;
+      }
+    }
+    
+    .bottom-credits.bottom-credits-home-call {
+    left: 20px;
+    bottom: -14px;
+    }
+    
+    .bottom-credits.bottom-position {
+    -webkit-transform: translateY(200px);
+       -moz-transform: translateY(200px);
+        -ms-transform: translateY(200px);
+         -o-transform: translateY(200px);
+            transform: translateY(200px);
+    -webkit-transition: all 1.5s ease;
+       -moz-transition: all 1.5s ease;
+        -ms-transition: all 1.5s ease;
+         -o-transition: all 1.5s ease;
+            transition: all 1.5s ease;
+    }
+    
+    .bottom-credits,
+    .bottom-credits a,
+    .bottom-credits a:hover {
+    color: #e5e5db;
+    text-decoration: none;
+    }
+    
+    

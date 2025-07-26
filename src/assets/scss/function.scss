@@ -1,0 +1,41 @@
+
+@function calcColor($color, $perc: 5) {
+    @if (lightness($color) >= 50) {
+      @return darken($color, $perc);
+    } @else {
+      @return lighten($color, $perc);
+    }
+  }
+  
+
+  @function textColor($color, $dark: var(--txtDark), $light: var(--txtLight)) {
+    @if (lightness($color) >= 50) {
+      @return $dark;
+    } @else {
+      @return $light;
+    }
+  }
+  
+    // @include delay(slideInDown, 3, 1s); 
+@mixin delay($name, $number, $value) {
+  @for $i from 1 to ($number + 1) {
+    &:nth-child(#{$i}) {
+      animation: #{$name}!important;
+      -webkit-animation-duration: (#{$i*$value})!important;
+      animation-duration: (#{$i*$value})!important;
+    }
+  }
+}
+  /* FUNZIONE PER ALTERNANZA LOGO CON SFONDO CHIARO O SCURO
+  
+  @function logo-color($color, #000: #000, #fff: #fff) {
+      @if (lightness($color) >= 50) {
+          @return $logo-positive;   <---SFONDOCHIARO------ INSERIRE NELLE VARIABILI PATH GENERICA DELLA RICEZIONE LOGO NORMALE
+      }
+      @else{
+          @return $logo-negative;   <---SFONDOSCURO------ INSERIRE NELLE VARIABILI PATH GENERICA DELLA RICEZIONE LOGO NEGATIVO
+      }
+  }
+  
+  */
+  
